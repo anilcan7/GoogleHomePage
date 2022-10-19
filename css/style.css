@@ -3,9 +3,11 @@
   margin: 10px;
   overflow: hidden;
   margin-right: 16px;
-  margin-left: 93%;
-  font-family: arial,sans-serif;
+  margin-left: 85%;
+  font-family: arial, sans-serif;
   font-size: 13px;
+  display: flex;
+  flex-direction: row-reverse;
 }
 
 .headerli a {
@@ -38,7 +40,7 @@
 }
 
 .search-area:hover {
-box-shadow: 0 2px 3px 0 rgba(0,0,0,0.24), 0 2px 5px 0 rgba(0,0,0,0.19);
+  box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.24), 0 2px 5px 0 rgba(0, 0, 0, 0.19);
 }
 
 .search {
@@ -66,6 +68,14 @@ box-shadow: 0 2px 3px 0 rgba(0,0,0,0.24), 0 2px 5px 0 rgba(0,0,0,0.19);
   position: relative;
 }
 
+.voice-img img{
+  width: 25px; 
+  padding-right: 15px;
+  padding-top: 5px; 
+  height:25px;
+}
+
+
 .input-enter {
   display: flex;
   flex: 1;
@@ -80,6 +90,10 @@ box-shadow: 0 2px 3px 0 rgba(0,0,0,0.24), 0 2px 5px 0 rgba(0,0,0,0.19);
   line-height: 34px;
   height: 34px;
   display: block;
+}
+
+.input-area input {
+  border: none;
 }
 
 .input {
@@ -113,6 +127,12 @@ box-shadow: 0 2px 3px 0 rgba(0,0,0,0.24), 0 2px 5px 0 rgba(0,0,0,0.19);
   text-align: center;
   cursor: pointer;
   user-select: none;
+  border:1px solid #f2f2f2;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #5f6369;
+  font-size: 14px;
+  height: 36px;
+  
 }
 
 .feelinglucky {
@@ -124,6 +144,11 @@ box-shadow: 0 2px 3px 0 rgba(0,0,0,0.24), 0 2px 5px 0 rgba(0,0,0,0.19);
   text-align: center;
   cursor: pointer;
   user-select: none;
+  border:1px solid #f2f2f2;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #5f6369;
+  font-size: 14px;
+  height: 36px;
 }
 
 .footer {
@@ -137,6 +162,7 @@ box-shadow: 0 2px 3px 0 rgba(0,0,0,0.24), 0 2px 5px 0 rgba(0,0,0,0.19);
   width: 100%;
   margin-left: -8px;
   line-height: 10px;
+  list-style:none ;
 }
 
 .footerli {
@@ -158,4 +184,3 @@ box-shadow: 0 2px 3px 0 rgba(0,0,0,0.24), 0 2px 5px 0 rgba(0,0,0,0.19);
 .footerli a:hover {
   text-decoration: underline;
 }
-
